@@ -57,13 +57,13 @@ const MainContent = ({ input }) => {
                     </div>
                 </div>
 
-                <div className='py-3'>
+                <div className='py-5 xl:py-3'>
                     <h6 className='text-lg font-bold'>Supports eye health: </h6>
                     <p style={{ fontSize: `${input}px` }} >Spinach contains high levels of vitamin A and other antioxidants that help maintain healthy vision and protect against age-related macular degeneration.. Spinach contains high levels of vitamin A and other antioxidants that help maintain healthy vision and protect against age-related macular degeneration.. Spinach contains high levels of vitamin A and other antioxidants that help maintain healthy vision and protect against age-related macular degeneration.. Spinach contains high levels of vitamin A and other antioxidants that help maintain healthy vision and protect against age-related macular degeneration.. Spinach contains high levels of vitamin A and other antioxidants that help maintain healthy vision and protect against age-related macular degeneration.. Spinach contains high levels of vitamin A and other antioxidants that help maintain healthy vision and protect against age-related macular degeneration.. Spinach contains high levels of vitamin A and other antioxidants that help maintain healthy vision and protect against age-related macular degeneration.. </p>
                 </div>
 
                 {/* Content Image */}
-                <div className='flex flex-col xl:flex-row xl:items-center xl:gap-11 mt-5 xl:mt-11 mb-14'>
+                <div className='flex flex-col xl:flex-row xl:items-center gap-5 xl:gap-11 mt-5 xl:mt-11 mb-14'>
                     <div className='relative flex-1'>
                         <Image
                             src={'/thumbnail2.png'}

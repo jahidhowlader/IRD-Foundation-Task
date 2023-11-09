@@ -8,7 +8,7 @@ const SocialLink = () => {
             <div className='w-7'>
                 <Link href={'https://www.facebook.com/jahidhowlader.info'} target='_blank'>
                     <Image
-                        src={'/facebook.png'}
+                        src={'/facebook.svg'}
                         width={28}
                         height={28}
                         alt='facebook'
@@ -19,7 +19,7 @@ const SocialLink = () => {
             <div className='w-7'>
                 <Link href={'https://www.linkedin.com/in/jahidhowlader'} target='_blank'>
                     <Image
-                        src={'/linkedin.png'}
+                        src={'/linkedin.svg'}
                         width={28}
                         height={28}
                         alt='linkedin'
@@ -30,7 +30,7 @@ const SocialLink = () => {
             <div className='w-7'>
                 <Link href={'https://www.twitter.com/jahidhowlader10'} target='_blank'>
                     <Image
-                        src={'/twitter.png'}
+                        src={'/twitter.svg'}
                         width={28}
                         height={28}
                         alt='twitter'
@@ -41,7 +41,7 @@ const SocialLink = () => {
             <div className='w-7'>
                 <Link href={'https://jahidhowlader.vercel.app/'} target='_blank'>
                     <Image
-                        src={'/link.png'}
+                        src={'/link.svg'}
                         width={28}
                         height={28}
                         alt='link'

@@ -35,11 +35,11 @@ const Navbar = () => {
                         <input type="text" placeholder="Search Best Food" className="text-sm border border-[#F0F2F4] outline-none xl:w-[360px] rounded-lg py-2 pl-4 text-white" />
                         <div className="absolute top-1/2 -translate-y-1/2 right-1 bg-primary-color border border-primary-color border-opacity-10 bg-opacity-10 rounded-md h-[80%] px-1.5 flex justify-center items-center">
                             <Image
-                                src={'/search.png'}
+                                src={'/search.svg'}
                                 alt="search icon"
                                 width={20}
                                 height={20}
-                                className="w-5 h-auto "
+                                className="w-5 h-auto cursor-pointer    "
                             />
                         </div>
                     </div>
@@ -48,8 +48,8 @@ const Navbar = () => {
                     <div className="flex items-center gap-4">
                         <div className="bg-primary-color bg-opacity-10 rounded-md p-1.5 border border-primary-color border-opacity-10 cursor-pointer hidden xl:block">
                             <Image
-                                src={'/sun.png'}
-                                alt="Mode icon"
+                                src={'/sun-01.svg'}
+                                alt="sun"
                                 width={20}
                                 height={20}
                                 className="xl:w-5 2xl:w-6 xl:h-5 2xl:h-6"
@@ -58,8 +58,8 @@ const Navbar = () => {
 
                         <div className="bg-primary-color bg-opacity-10 rounded-md p-1.5 border border-primary-color border-opacity-10 cursor-pointer hidden xl:block">
                             <Image
-                                src={'/nintendo-switch.png'}
-                                alt="Mode icon"
+                                src={'/nintendo-switch.svg'}
+                                alt="nintendo-switch"
                                 width={20}
                                 height={20}
                                 className="xl:w-5 2xl:w-6 xl:h-5 2xl:h-6"
@@ -70,7 +70,7 @@ const Navbar = () => {
                         {/* Search For Mobile */}
                         <div className="bg-primary-color bg-opacity-10 rounded-md p-1.5 py-2 border border-primary-color border-opacity-10 cursor-pointer mr-2 xl:hidden">
                             <Image
-                                src={'/search.png'}
+                                src={'/search.svg'}
                                 alt="search icon"
                                 width={24}
                                 height={24}
@@ -80,8 +80,8 @@ const Navbar = () => {
 
                         <div className="bg-[#101010] bg-opacity-10 rounded-md p-1.5 border border-[#101010] border-opacity-10 cursor-pointer">
                             <Image
-                                src={'/menu.png'}
-                                alt="Mode icon"
+                                src={'/menu-01.svg'}
+                                alt="menu"
                                 width={20}
                                 height={20}
                                 className="xl:w-5 2xl:w-6 xl:h-5 2xl:h-6"

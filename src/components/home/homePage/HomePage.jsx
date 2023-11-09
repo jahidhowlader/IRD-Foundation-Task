@@ -25,7 +25,7 @@ const HomePage = () => {
                 </aside>
 
                 {/* Middle Or Main Content */}
-                <section className='xl:col-span-3 2xl:col-span-4 bg-white rounded-xl xl:overflow-hidden mb-16 xl:mb- 0 xl:h-[calc(100vh-100px)] pr-0.5 shadow-2xl shadow-[#EEF0F2]'>
+                <section className='xl:col-span-3 2xl:col-span-4 bg-white rounded-xl xl:overflow-hidden mb-16 xl:mb-0 h-[calc(100vh-195px)] xl:h-[calc(100vh-100px)] pr-0.5 shadow-2xl shadow-[#EEF0F2]'>
                     <MainContent input={input} />
                 </section>
 

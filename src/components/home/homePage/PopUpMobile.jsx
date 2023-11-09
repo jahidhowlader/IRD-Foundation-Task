@@ -35,7 +35,7 @@ const PopUpMobile = () => {
                 <div className='flex items-center gap-3'>
                     <div>
                         <Image
-                            src={'/Group1.png'}
+                            src={'/sidebar.svg'}
                             alt='Group1'
                             width={20}
                             height={20}

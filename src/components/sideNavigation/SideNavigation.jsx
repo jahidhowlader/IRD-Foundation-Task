@@ -8,8 +8,8 @@ const SideNavigation = () => {
 
             <Link href={'/'} className="bg-primary-color bg-opacity-10 rounded-md p-1.5 border border-primary-color border-opacity-10 cursor-pointer">
                 <Image
-                    src={'/home.png'}
-                    alt="home icon"
+                    src={'/home-01.svg'}
+                    alt="home"
                     width={24}
                     height={24}
                     className='w-5 2xl:w-6 h-auto'
@@ -18,8 +18,8 @@ const SideNavigation = () => {
             <div className="bg-[#101010] bg-opacity-10 border border-black rounded-md p-1.5 border-opacity-0 cursor-pointer">
                 <Link href={'#'}>
                     <Image
-                        src={'/apps.png'}
-                        alt="apps icon"
+                        src={'/dashboard-circle.svg'}
+                        alt="dashboard-circle"
                         width={24}
                         height={24}
                         className=' w-5 2xl:w-6 h-auto'
@@ -28,7 +28,7 @@ const SideNavigation = () => {
             </div>
             <div className="bg-[#101010] bg-opacity-10 border border-black rounded-md p-1.5 border-opacity-0 cursor-pointer">
                 <Image
-                    src={'/Frame.png'}
+                    src={'/Frame.svg'}
                     alt="Frame icon"
                     width={20}
                     height={20}
@@ -37,7 +37,7 @@ const SideNavigation = () => {
             </div>
             <div className="bg-[#101010] bg-opacity-10 border border-black rounded-md p-1.5 border-opacity-0 cursor-pointer">
                 <Image
-                    src={'/video-replay.png'}
+                    src={'/video-replay.svg'}
                     alt="video icon"
                     width={20}
                     height={20}
@@ -46,7 +46,7 @@ const SideNavigation = () => {
             </div>
             <div className="bg-[#101010] bg-opacity-10 border border-black rounded-md p-1.5 border-opacity-0 cursor-pointer">
                 <Image
-                    src={'/more.png'}
+                    src={'/more-01.svg'}
                     alt="more icon"
                     width={20}
                     height={20}

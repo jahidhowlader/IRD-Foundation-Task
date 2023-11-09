@@ -39,11 +39,11 @@ const LeftSidebar = () => {
                     <input type="text" placeholder="Search by Food Name" className="xl:text-xs text-sm border border-[#F0F2F4] outline-none w-full rounded-lg py-2 pl-4 pr-10 " />
                     <div className="absolute top-1/2 -translate-y-1/2 right-1 bg-primary-color border border-primary-color border-opacity-10 bg-opacity-10 rounded-md h-[80%] px-1.5 flex justify-center items-center">
                         <Image
-                            src={'/search.png'}
+                            src={'/search.svg'}
                             alt="search icon"
-                            width={20}
-                            height={20}
-                            className="w-5 h-auto "
+                            width={16}
+                            height={16}
+                            className="w-4 h-auto "
                         />
                     </div>
                 </div>
@@ -57,7 +57,7 @@ const LeftSidebar = () => {
                         <div className='pr-0.5'>
                             <p className='text-xs font-bold pl-5 2xl:p-[15px] pb-2.5 '>Fruits List</p>
 
-                            <div className='xl:h-[560px] xl:overflow-auto xl:pb-40 2xl:pb-20 pl-5 xl:pl-3 2xl:pl-[15px] '>
+                            <div className='xl:h-[560px] xl:overflow-auto xl:pb-48 2xl:pb-28 pl-5 xl:pl-3 2xl:pl-[15px] '>
                                 <FruitList img={'/orange.png'} name={'Oranges'} vitamin={'Vitamin C'} bg={'bg-[#ffe6c3]'} />
                                 <FruitList img={'/apple.png'} name={'Apples'} vitamin={'Vitamin C'} bg={'bg-primary-color bg-opacity-[.15]'} />
                                 <FruitList img={'/avocado.png'} name={'Avocado'} vitamin={'Vitamin B6'} bg={'bg-[#e8ecdf]'} />

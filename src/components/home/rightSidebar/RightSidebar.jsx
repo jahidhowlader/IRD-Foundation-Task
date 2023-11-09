@@ -8,7 +8,7 @@ const RightSidebar = ({ input, setInput }) => {
             <div className='xl:flex justify-between items-center'>
                 <div className='flex items-center gap-2 2xl:gap-4'>
                     <Image
-                        src={'/text-square.png'}
+                        src={'/text-square.svg'}
                         width={20}
                         height={20}
                         alt='setting'
@@ -19,7 +19,7 @@ const RightSidebar = ({ input, setInput }) => {
 
                 <div>
                     <Image
-                        src={'/upArrorw.png'}
+                        src={'/upArrow.svg'}
                         width={20}
                         height={20}
                         alt='setting'
