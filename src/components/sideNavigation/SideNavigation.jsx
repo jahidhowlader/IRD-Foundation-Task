@@ -4,17 +4,17 @@ import React from 'react';
 
 const SideNavigation = () => {
     return (
-        <div className='fixed lg:top-1/2 lg:pl-4 lg:pr-3 lg:-translate-y-1/2 flex lg:flex-col items-center justify-center lg:gap-[35px] bg-white h-full z-40'>
+        <div className='fixed bottom-0 xl:top-1/2 py-2 xl:px-4 xl:-translate-y-1/2 w-full xl:w-auto flex xl:flex-col items-end xl:items-center justify-center gap-[35px] xl:gap-[35px] bg-white xl:h-full z-30'>
 
-            <div className="bg-primary-color bg-opacity-10 rounded-md p-1.5 border border-primary-color border-opacity-10 cursor-pointer">
+            <Link href={'/'} className="bg-primary-color bg-opacity-10 rounded-md p-1.5 border border-primary-color border-opacity-10 cursor-pointer">
                 <Image
                     src={'/home.png'}
                     alt="home icon"
                     width={24}
                     height={24}
-                    className='xl:w-5 2xl:w-6 xl:h-5 2xl:h-6'
+                    className='w-5 2xl:w-6 h-auto'
                 />
-            </div>
+            </Link>
             <div className="bg-[#101010] bg-opacity-10 border border-black rounded-md p-1.5 border-opacity-0 cursor-pointer">
                 <Link href={'#'}>
                     <Image
@@ -22,7 +22,7 @@ const SideNavigation = () => {
                         alt="apps icon"
                         width={24}
                         height={24}
-                        className='xl:w-5 2xl:w-6 xl:h-5 2xl:h-6'
+                        className=' w-5 2xl:w-6 h-auto'
                     />
                 </Link>
             </div>
@@ -32,7 +32,7 @@ const SideNavigation = () => {
                     alt="Frame icon"
                     width={20}
                     height={20}
-                    className='xl:w-5 2xl:w-6 xl:h-5 2xl:h-6'
+                    className='w-5 2xl:w-6 h-auto'
                 />
             </div>
             <div className="bg-[#101010] bg-opacity-10 border border-black rounded-md p-1.5 border-opacity-0 cursor-pointer">
@@ -41,7 +41,7 @@ const SideNavigation = () => {
                     alt="video icon"
                     width={20}
                     height={20}
-                    className='xl:w-5 2xl:w-6 xl:h-5 2xl:h-6'
+                    className='w-5 2xl:w-6 h-auto'
                 />
             </div>
             <div className="bg-[#101010] bg-opacity-10 border border-black rounded-md p-1.5 border-opacity-0 cursor-pointer">
@@ -50,7 +50,7 @@ const SideNavigation = () => {
                     alt="more icon"
                     width={20}
                     height={20}
-                    className='xl:w-5 2xl:w-6 xl:h-5 2xl:h-6'
+                    className='w-5 2xl:w-6 h-auto'
                 />
             </div>
         </div>

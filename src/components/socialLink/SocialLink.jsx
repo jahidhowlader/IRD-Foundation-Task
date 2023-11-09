@@ -4,7 +4,7 @@ import React from 'react';
 
 const SocialLink = () => {
     return (
-        <div className='flex flex-col gap-[22px] pt-[60px] '>
+        <div className='flex xl:flex-col gap-[22px] xl:pt-[60px] pb-5'>
             <div className='w-7'>
                 <Link href={'https://www.facebook.com/jahidhowlader.info'} target='_blank'>
                     <Image

@@ -2,9 +2,18 @@
 @tailwind components;
 @tailwind utilities;
 
+body {
+  /* background: #EEF0F2; */
+}
+
 /* Scroll Bar */
 ::-webkit-scrollbar {
   width: 3px;
+}
+
+::-webkit-scrollbar-track {
+  margin: 30px 0;
+
 }
 
 ::-webkit-scrollbar-thumb {
@@ -15,3 +24,4 @@
 input[type="range"] {
   accent-color: #E55527;
 }
+
