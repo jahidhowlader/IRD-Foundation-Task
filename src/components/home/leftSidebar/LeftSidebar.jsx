@@ -78,7 +78,19 @@ const LeftSidebar = () => {
                             </div>
                         </div>
                     </>
-                ) : <h2 className='text-center pt-5 font-bold'>No Content</h2>
+                ) : tab === 'vegitables' ? (
+                    <>
+                        <div className='pr-0.5'>
+                            <p className='text-xs font-bold pl-5 2xl:p-[15px] pb-2.5 '>Fruits List</p>
+
+                            <div className='xl:h-[560px] xl:overflow-auto xl:pb-48 2xl:pb-28 pl-5 xl:pl-3 2xl:pl-[15px] '>
+                                <FruitList img={'/tomato.png'} name={'Tomato'} vitamin={'Vitamin B'} bg={'bg-primary-color bg-opacity-[.15]'} />
+                                <FruitList img={'/carrot.png'} name={'Carrot'} vitamin={'Vitamin A'} bg={'bg-[#ffe6c3]'} />
+                                <FruitList img={'/broccoli.png'} name={'Broccoli'} vitamin={'Vitamin B'} bg={'bg-[#e8ecdf]'} />
+                            </div>
+                        </div>
+                    </>
+                ) : ''
             }
 
 
