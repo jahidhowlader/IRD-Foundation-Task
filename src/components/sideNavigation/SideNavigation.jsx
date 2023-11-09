@@ -16,7 +16,7 @@ const SideNavigation = () => {
                 />
             </Link>
             <div className="bg-[#101010] bg-opacity-10 border border-black rounded-md p-1.5 border-opacity-0 cursor-pointer">
-                <Link href={'#'}>
+                <Link href={'/dashboard'}>
                     <Image
                         src={'/dashboard-circle.svg'}
                         alt="dashboard-circle"
@@ -27,31 +27,37 @@ const SideNavigation = () => {
                 </Link>
             </div>
             <div className="bg-[#101010] bg-opacity-10 border border-black rounded-md p-1.5 border-opacity-0 cursor-pointer">
-                <Image
-                    src={'/Frame.svg'}
-                    alt="Frame icon"
-                    width={20}
-                    height={20}
-                    className='w-5 2xl:w-6 h-auto'
-                />
+                <Link href={'notification'}>
+                    <Image
+                        src={'/Frame.svg'}
+                        alt="Frame icon"
+                        width={20}
+                        height={20}
+                        className='w-5 2xl:w-6 h-auto'
+                    />
+                </Link>
             </div>
             <div className="bg-[#101010] bg-opacity-10 border border-black rounded-md p-1.5 border-opacity-0 cursor-pointer">
-                <Image
-                    src={'/video-replay.svg'}
-                    alt="video icon"
-                    width={20}
-                    height={20}
-                    className='w-5 2xl:w-6 h-auto'
-                />
+                <Link href={'/video'}>
+                    <Image
+                        src={'/video-replay.svg'}
+                        alt="video icon"
+                        width={20}
+                        height={20}
+                        className='w-5 2xl:w-6 h-auto'
+                    />
+                </Link>
             </div>
             <div className="bg-[#101010] bg-opacity-10 border border-black rounded-md p-1.5 border-opacity-0 cursor-pointer">
-                <Image
-                    src={'/more-01.svg'}
-                    alt="more icon"
-                    width={20}
-                    height={20}
-                    className='w-5 2xl:w-6 h-auto'
-                />
+                <Link href={'/others'}>
+                    <Image
+                        src={'/more-01.svg'}
+                        alt="more icon"
+                        width={20}
+                        height={20}
+                        className='w-5 2xl:w-6 h-auto'
+                    />
+                </Link>
             </div>
         </div>
     );

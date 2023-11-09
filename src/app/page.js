@@ -6,9 +6,6 @@ export default function Home() {
   return (
     <main className="bg-black">
       
-      {/* <div className=" ml-80 bg-primary-color -mt-20">
-        <h1 className="text-9xl">Hello World</h1>
-      </div> */}
       <HomePage />
 
     </main>
