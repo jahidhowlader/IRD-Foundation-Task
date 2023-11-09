@@ -82,7 +82,7 @@ const MainContent = ({ input }) => {
                 </div>
 
                 {/* Review */}
-                <div className='xl:py-16'>
+                <div className='xl:pb-16'>
                     <h6 className='text-lg font-bold pb-1  xl:pb-3'>Was this helpful?</h6>
                     <Rating
                         readOnly

@@ -5,8 +5,6 @@ import React, { useEffect, useState } from 'react';
 import LeftSidebar from '../leftSidebar/LeftSidebar';
 import { motion } from "framer-motion"
 
-const mobileWidth = window.innerWidth < 450
-
 const PopUpMobile = () => {
 
     // PopUp Code
@@ -63,13 +61,13 @@ const PopUpMobile = () => {
                     <>
                         <motion.div
                             className='fixed top-0 left-0 w-full bg-opacity-40 h-full bg-black z-[998]'
-                            initial={{ x: mobileWidth ? -450 : -500 }}
+                            initial={{ x: -450 }}
                             animate={{ x: 0 }}
                             transition={{ duration: 0.5 }}
                         >
                             <motion.div
                                 className='fixed top-0 left-0 w-10/12 bg-white  h-full rounded-2xl rounded-l-none z-[998] overflow-auto popup-content'
-                                initial={{ x: mobileWidth ? -450 : -500 }}
+                                initial={{ x: -450 }}
                                 animate={{ x: 0 }}
                                 transition={{ duration: 1, delay: .6 }}
                             >
